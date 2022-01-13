@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create new account</title>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+           <img src="college3.jpg" alt="gcc" width="100%">
+        </div>
+        <div class="mid" id="menu">
+            <ul>
+                <li style="user-select: auto;"> <a href="#">Home</a></li>
+                <li style="user-select: auto;"><a href="#">Addmission</a></li>
+                <li style="user-select: auto;"><a href="#">courses</a></li>
+                <li style="user-select: auto;"><a href="#">Syllabus</a></li>
+                <li style="user-select: auto;"><a href="#">About us</a></li>
+            </ul>
+        </div>
+        <div id="outside">
+            <form action="/create new account" id="accountdetails">
+                <fieldset>
+                    <legend>Personal Details</legend>
+                    <div>
+                        <label id="name-label" for="name">Name:</label>
+                        <input type="text" id="name" name="user_name" placeholder="enter name here">
+                    </div>
+                    <div>
+                        <label id="Fname-label" for="Fname">Father Name:</label>
+                        <input type="text" id="name" placeholder="enter father name">
+                    </div>
+                    <div>
+                        <label id="Mname-label" for="Mname">Mother Name:</label>
+                        <input type="text" id="name" placeholder="enter Mother name">
+                    </div>
+                    
+                    <div>
+                        <label id="gender-label" for="gender">Choose your gender</label>
+                        <select name="gender" id="dropdown">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="date of birth">Date of bith:</label>
+                        <input type="date">
+                    </div>
+                    <div>
+                        <label id="father occupation"for="occupation">Father occupation:</label>
+                        <input type="radio" >Goverment employee
+                        <input type="radio">Private sector
+                        <input type="radio">Farmer
+                        <input type="radio">Business
+                        <input type="radio">Unemployeed <br>
+                        <label id="mother occupation"for="occupation">Mother occupation:</label>
+                        <input type="radio" >Goverment employee
+                        <input type="radio">Private sector
+                        <input type="radio">Farmer
+                        <input type="radio">Business
+                        <input type="radio">Unemployeed
+                        <input type="radio">Housewife <br>
+                    </div>
+                    <label for="income" id="income">Annual Income</label>
+                    <input type="text">
+                </fieldset>
+                <fieldset>
+                    <legend>Communication Details</legend>
+                    <div>
+                     <label for="correspondance address">Correspondance Address:</label><br>
+                     <textarea name="correspondance address" id="caddres" cols="50" rows="5" placeholder="enter correspondance addres"></textarea><br>
+                     <label for="">District:</label>
+                     <input type="text" placeholder="district name">
+                     <label for="">Tehsil:</label>
+                     <input type="text" placeholder="tehsil name">
+                     <label for="">State:</label>
+                     <input type="text" placeholder="state name">
+                     <label id="number-label" for="user_number">Pincode:</label>
+                        <input type="text" id="number" max="9" min="0" placeholder="pincode"><br>
+                     <label for="permanenet address">Permanenet Address:</label><br>
+                     <textarea name="permanent address" id="paddres" cols="50" rows="5" placeholder="enter permanenet address"></textarea><br>
+                     <label for="">District:</label>
+                     <input type="text" placeholder="district name">
+                     <label for="">Tehsil:</label>
+                     <input type="text" placeholder="tehsil name">
+                     <label for="">State:</label>
+                     <input type="text" placeholder="state name">
+                     <label id="number-label" for="user_number">Pincode:</label>
+                        <input type="text" id="number" max="9" min="0" placeholder="pincode">
+                    </div>
+                    <div>
+                        <label id="email-label" for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="enter email address here">
+                    </div>
+                    <div>
+                        <label id="number-label" for="user_number">Mobile number:</label>
+                        <input type="text" id="number" max="9" min="0" placeholder="enter 10 digit number">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Qualification Details</legend>
+                    <td>QUALIFICATION <br /><br /><br /><br /><br /><br /><br /></td>
+                   <td>
+                    <table>
+                    <tr>
+                    <td align="center"><b>Sl.No.</b></td>
+                    <td align="center"><b>Examination</b></td>
+                    <td align="center"><b>Board</b></td>
+                    <td align="center"><b>Percentage</b></td>
+                    <td align="center"><b>Year of Passing</b></td>
+                    </tr>
+ 
+                    <tr>
+                    <td>1</td>
+                    <td>Class X</td>
+                    <td><input type="text" name="ClassX_Board" maxlength="30" /></td>
+                    <td><input type="text" name="ClassX_Percentage" maxlength="30" /></td>
+                    <td><input type="text" name="ClassX_YrOfPassing" maxlength="30" /></td>
+                    </tr>
+ 
+                    <tr>
+                   <td>2</td>
+                   <td>Class XII</td>
+                   <td><input type="text" name="ClassXII_Board" maxlength="30" /></td>
+                   <td><input type="text" name="ClassXII_Percentage" maxlength="30" /></td>
+                   <td><input type="text" name="ClassXII_YrOfPassing" maxlength="30" /></td>
+                   </tr>
+                   <tr>
+                   <td></td>
+                   <td></td>
+                   <td align="center">(10 char max)</td>
+                  <td align="center">(upto 2 decimal)</td>
+                  </tr>
+                    </table>
+                  </td>
+                  </tr>
+                </fieldset>
+            </form>
+        </div>
+</body>
+</html>
